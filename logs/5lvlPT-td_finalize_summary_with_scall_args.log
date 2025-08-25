@@ -1,0 +1,833 @@
+2024-11-14T17:37:00.577323+08:00 DXH-104-059 kernel: kernel_agent: __pgtable_l5_enabled: 1
+2024-11-14T17:37:00.577351+08:00 DXH-104-059 kernel: kernel_agent: __seamcall address: ffffffff85afa910
+2024-11-14T17:37:00.577354+08:00 DXH-104-059 kernel: kernel_agent: __seamcall_ret address: ffffffff85afa970
+2024-11-14T17:37:00.577357+08:00 DXH-104-059 kernel: kernel_agent: __seamcall_saved_ret address: ffffffff85afa9e0
+2024-11-14T17:37:00.577359+08:00 DXH-104-059 kernel: kernel_agent: tdx_vm_ioctl adress: ffffffffc1127e40
+2024-11-14T17:37:00.577361+08:00 DXH-104-059 kernel: kernel_agent: tdx_vcpu_ioctl adress: ffffffffc1127ff0
+2024-11-14T17:37:00.601337+08:00 DXH-104-059 kernel: kernel_agent: KProbe: registration successful
+2024-11-14T17:37:00.601363+08:00 DXH-104-059 kernel: kernel_agent: vmm_agent loaded
+
+2024-11-14T17:37:09.077247+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-14T17:37:09.077273+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_CAPABILITIES
+2024-11-14T17:37:09.077276+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.077278+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-14T17:37:09.077281+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_CAPABILITIES
+2024-11-14T17:37:09.077283+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.077285+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-14T17:37:09.077286+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_CAPABILITIES
+2024-11-14T17:37:09.077288+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.084244+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-14T17:37:09.084266+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VM
+2024-11-14T17:37:09.084269+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.084271+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_CREATE ------------------------------------ 
+2024-11-14T17:37:09.084274+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdr page pa: 0x177783000
+2024-11-14T17:37:09.084276+08:00 DXH-104-059 kernel: kernel_agent: RDX: td hkid: 33
+2024-11-14T17:37:09.084278+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_KEY_CONFIG ------------------------------------ 
+2024-11-14T17:37:09.084279+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdr pa: 0x177783000
+2024-11-14T17:37:09.084281+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.084282+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1d90cc000
+2024-11-14T17:37:09.084284+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.084285+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.084286+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10d42a000
+2024-11-14T17:37:09.084288+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.084310+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.084311+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1592b2000
+2024-11-14T17:37:09.084312+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.084313+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.084316+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x258f9c000
+2024-11-14T17:37:09.084317+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.084318+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.084320+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x112fb1000
+2024-11-14T17:37:09.084321+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.084322+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.084324+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1028fe000
+2024-11-14T17:37:09.084325+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.084347+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MNG_INIT ------------------------------------ 
+2024-11-14T17:37:09.084349+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdr pa: 0x177783000
+2024-11-14T17:37:09.084351+08:00 DXH-104-059 kernel: kernel_agent: RDX: TD_PARAMS_STRUCT pa: 0x123798800
+2024-11-14T17:37:09.084352+08:00 DXH-104-059 kernel: kernel_agent: TD_PARAMS_STRUCT va: 0xff480e1463798800
+2024-11-14T17:37:09.084353+08:00 DXH-104-059 kernel: kernel_agent:  --- TD_PARAMS data --- 
+2024-11-14T17:37:09.084355+08:00 DXH-104-059 kernel: kernel_agent: td_params attributes: 0x10000000
+2024-11-14T17:37:09.084357+08:00 DXH-104-059 kernel: kernel_agent: td_params attributes: 0x10000000
+2024-11-14T17:37:09.084363+08:00 DXH-104-059 kernel: kernel_agent: td_params xfam: 602e7
+2024-11-14T17:37:09.084366+08:00 DXH-104-059 kernel: kernel_agent: td_params max_vcpus: 16
+2024-11-14T17:37:09.084368+08:00 DXH-104-059 kernel: kernel_agent: td_params eptp_controls: 0x26
+2024-11-14T17:37:09.084395+08:00 DXH-104-059 kernel: kernel_agent: td_params exec_controls: 0x1
+2024-11-14T17:37:09.084396+08:00 DXH-104-059 kernel: kernel_agent: td_params attributes: 0x58
+2024-11-14T17:37:09.084398+08:00 DXH-104-059 kernel: kernel_agent: td_params mrconfigid[0]: 0x0000000000000000
+2024-11-14T17:37:09.084399+08:00 DXH-104-059 kernel: kernel_agent: td_params mrconfigid[1]: 0x0000000000000000
+2024-11-14T17:37:09.084400+08:00 DXH-104-059 kernel: kernel_agent: td_params mrconfigid[2]: 0x0000000000000000
+2024-11-14T17:37:09.084401+08:00 DXH-104-059 kernel: kernel_agent: td_params mrconfigid[3]: 0x0000000000000000
+2024-11-14T17:37:09.084403+08:00 DXH-104-059 kernel: kernel_agent: td_params mrconfigid[4]: 0x0000000000000000
+2024-11-14T17:37:09.084404+08:00 DXH-104-059 kernel: kernel_agent: td_params mrconfigid[5]: 0x0000000000000000
+2024-11-14T17:37:09.084406+08:00 DXH-104-059 kernel: kernel_agent: td_params mrowner[0]: 0x0000000000000000
+2024-11-14T17:37:09.084407+08:00 DXH-104-059 kernel: kernel_agent: td_params mrowner[1]: 0x0000000000000000
+2024-11-14T17:37:09.084408+08:00 DXH-104-059 kernel: kernel_agent: td_params mrowner[2]: 0x0000000000000000
+2024-11-14T17:37:09.084410+08:00 DXH-104-059 kernel: kernel_agent: td_params mrowner[3]: 0x0000000000000000
+2024-11-14T17:37:09.084411+08:00 DXH-104-059 kernel: kernel_agent: td_params mrowner[4]: 0x0000000000000000
+2024-11-14T17:37:09.084413+08:00 DXH-104-059 kernel: kernel_agent: td_params mrowner[5]: 0x0000000000000000
+2024-11-14T17:37:09.084414+08:00 DXH-104-059 kernel: kernel_agent: td_params mrownerconfig[0]: 0x0000000000000000
+2024-11-14T17:37:09.084415+08:00 DXH-104-059 kernel: kernel_agent: td_params mrownerconfig[1]: 0x0000000000000000
+2024-11-14T17:37:09.084417+08:00 DXH-104-059 kernel: kernel_agent: td_params mrownerconfig[2]: 0x0000000000000000
+2024-11-14T17:37:09.084418+08:00 DXH-104-059 kernel: kernel_agent: td_params mrownerconfig[3]: 0x0000000000000000
+2024-11-14T17:37:09.084419+08:00 DXH-104-059 kernel: kernel_agent: td_params mrownerconfig[4]: 0x0000000000000000
+2024-11-14T17:37:09.084420+08:00 DXH-104-059 kernel: kernel_agent: td_params mrownerconfig[5]: 0x0000000000000000
+2024-11-14T17:37:09.085206+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MNG_RD ------------------------------------ 
+2024-11-14T17:37:09.220433+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.220461+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.220463+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.220467+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.220469+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x11b7ea000
+2024-11-14T17:37:09.220471+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.220473+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220475+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x11ddfd000
+2024-11-14T17:37:09.220476+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220478+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220480+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x20df7a000
+2024-11-14T17:37:09.220482+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220483+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220484+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x2f1d22000
+2024-11-14T17:37:09.220486+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220487+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220489+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10b706000
+2024-11-14T17:37:09.220490+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220491+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220493+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1ef63c000
+2024-11-14T17:37:09.220494+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220496+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.220498+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220499+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.220500+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.220501+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220502+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220504+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.220506+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.220507+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.220509+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220510+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220512+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.220513+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x137589a40
+2024-11-14T17:37:09.220514+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.220515+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220517+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.220518+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.220519+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.220520+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.220522+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.220523+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.220525+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.220526+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.220527+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1d3bd9000
+2024-11-14T17:37:09.220528+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.220530+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220531+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x13e70b000
+2024-11-14T17:37:09.220532+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220534+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220535+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x11fcbd000
+2024-11-14T17:37:09.220536+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220537+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220539+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x2440f8000
+2024-11-14T17:37:09.220540+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220541+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220543+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10a7e3000
+2024-11-14T17:37:09.220544+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220546+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220547+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10fadf000
+2024-11-14T17:37:09.220549+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220550+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.220551+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220552+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.220553+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.220555+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220556+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220558+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.220559+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.220561+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.220562+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220563+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220565+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.220566+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1d351e240
+2024-11-14T17:37:09.220567+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.220568+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220570+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3bd9000
+2024-11-14T17:37:09.220571+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.220572+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.220574+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.220575+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.220609+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.220611+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.220613+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.220615+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1d3edd000
+2024-11-14T17:37:09.220617+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.220619+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220621+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1d3cde000
+2024-11-14T17:37:09.220623+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220625+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220627+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x24b921000
+2024-11-14T17:37:09.220629+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220631+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220633+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1509f0000
+2024-11-14T17:37:09.220635+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220636+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220638+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x257d0b000
+2024-11-14T17:37:09.220640+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220642+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220644+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1cc6b9000
+2024-11-14T17:37:09.220646+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220648+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.220650+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220652+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.220654+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.220656+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220658+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220660+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.220662+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.220664+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.220667+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220669+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220670+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.220672+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x252b16240
+2024-11-14T17:37:09.220796+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.220798+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220799+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3edd000
+2024-11-14T17:37:09.220800+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.220802+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.220803+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.220804+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.220805+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.220806+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.220808+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.220809+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x20de9a000
+2024-11-14T17:37:09.220810+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.220812+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220813+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x137bc8000
+2024-11-14T17:37:09.220814+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220815+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220817+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1d3993000
+2024-11-14T17:37:09.220818+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220819+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220821+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x25d64d000
+2024-11-14T17:37:09.220822+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220823+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220824+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x112e57000
+2024-11-14T17:37:09.220826+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220827+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.220828+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1d35a2000
+2024-11-14T17:37:09.220829+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220830+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.220832+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220833+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.220834+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.220836+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220837+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220838+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.220839+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.220841+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.220842+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220843+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220844+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.220845+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1d3bebe40
+2024-11-14T17:37:09.220846+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.220848+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.220849+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x20de9a000
+2024-11-14T17:37:09.220850+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.220851+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.220852+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.220853+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.220855+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.220856+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.220857+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.220858+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x2272d5000
+2024-11-14T17:37:09.220860+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.221096+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221108+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x124fff000
+2024-11-14T17:37:09.221111+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221114+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221116+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x14ba84000
+2024-11-14T17:37:09.221119+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221120+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221122+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x247cd1000
+2024-11-14T17:37:09.221124+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221126+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221230+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1c4940000
+2024-11-14T17:37:09.221237+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221238+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221239+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x247c55000
+2024-11-14T17:37:09.221241+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221243+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.221245+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221246+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.221249+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.221251+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221253+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221254+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.221256+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.221258+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.221299+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221302+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221305+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.221307+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1d364be40
+2024-11-14T17:37:09.221309+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.221312+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221313+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x2272d5000
+2024-11-14T17:37:09.221315+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.221318+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.221346+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.221349+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.221351+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.221353+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.221355+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.221357+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1d38cd000
+2024-11-14T17:37:09.221359+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.221360+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221388+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10f903000
+2024-11-14T17:37:09.221391+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221393+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221396+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1ee835000
+2024-11-14T17:37:09.221398+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221400+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221426+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x13e518000
+2024-11-14T17:37:09.221428+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221431+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221435+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x12b613000
+2024-11-14T17:37:09.221460+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221463+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221486+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x137aa3000
+2024-11-14T17:37:09.221489+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221492+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.221508+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221510+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.221513+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.221540+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221556+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221572+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.221709+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.221721+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.221725+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221727+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221730+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.221732+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1d370e240
+2024-11-14T17:37:09.221733+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.221735+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221737+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d38cd000
+2024-11-14T17:37:09.221764+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.221766+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.221768+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.221769+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.221770+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.221772+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.221774+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.221777+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1e8c80000
+2024-11-14T17:37:09.221802+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.221805+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221807+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1774eb000
+2024-11-14T17:37:09.221810+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221812+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221837+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10baf3000
+2024-11-14T17:37:09.221840+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221842+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221844+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x12b61d000
+2024-11-14T17:37:09.221846+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221848+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221850+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x247c12000
+2024-11-14T17:37:09.221854+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221879+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.221881+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1c4874000
+2024-11-14T17:37:09.221884+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221886+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.221888+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221891+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.221893+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.221894+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221896+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221900+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.221926+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.221929+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.221931+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221934+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221936+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.221938+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x14ba16240
+2024-11-14T17:37:09.221939+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.221942+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.221967+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1e8c80000
+2024-11-14T17:37:09.221969+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.221972+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.221975+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.221977+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.221979+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.221981+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.222007+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.222009+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x14c325000
+2024-11-14T17:37:09.222012+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.222014+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222017+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x14bb7f000
+2024-11-14T17:37:09.222042+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222044+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222047+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1e524b000
+2024-11-14T17:37:09.222049+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222051+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222053+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x116710000
+2024-11-14T17:37:09.222055+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222057+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222058+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x136a70000
+2024-11-14T17:37:09.222059+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222061+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222063+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x103875000
+2024-11-14T17:37:09.222064+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222066+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.222090+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222092+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.222095+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.222098+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222100+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222104+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.222106+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.222108+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.222111+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222112+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222113+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.222115+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x25d7c3e40
+2024-11-14T17:37:09.222116+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.222117+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222119+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x14c325000
+2024-11-14T17:37:09.222120+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.222121+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.222122+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.222123+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.222125+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.222126+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.222128+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.222131+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1d3f89000
+2024-11-14T17:37:09.222156+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.222160+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222163+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x133f7d000
+2024-11-14T17:37:09.222166+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222168+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222170+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x12e203000
+2024-11-14T17:37:09.222173+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222175+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222190+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x12e2e2000
+2024-11-14T17:37:09.222193+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222195+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222199+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x116ecf000
+2024-11-14T17:37:09.222202+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222204+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222206+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1f6626000
+2024-11-14T17:37:09.222209+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222210+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.222335+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222341+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.222343+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.222346+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222347+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222349+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.222350+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.222351+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.222353+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222354+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222356+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.222372+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1211dbe40
+2024-11-14T17:37:09.222374+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.222376+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222379+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3f89000
+2024-11-14T17:37:09.222381+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.222382+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.222385+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.222387+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.222389+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.222390+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.222391+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.222392+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x137561000
+2024-11-14T17:37:09.222394+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.222395+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222396+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x13d544000
+2024-11-14T17:37:09.222398+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222422+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222424+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x13fcb1000
+2024-11-14T17:37:09.222427+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222431+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222434+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x257d17000
+2024-11-14T17:37:09.222437+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222440+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222442+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x11c715000
+2024-11-14T17:37:09.222444+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222446+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222448+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1c03d0000
+2024-11-14T17:37:09.222450+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222452+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.222453+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222455+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.222456+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.222457+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222458+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222460+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.222462+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.222463+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.222467+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222491+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222494+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.222496+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x11de1e240
+2024-11-14T17:37:09.222499+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.222501+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222504+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x137561000
+2024-11-14T17:37:09.222506+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.222508+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.222511+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.222513+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.222516+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.222518+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.222521+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.222523+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1d3e51000
+2024-11-14T17:37:09.222525+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.222527+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222529+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10f9f7000
+2024-11-14T17:37:09.222532+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222534+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222535+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x218e6e000
+2024-11-14T17:37:09.222537+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222539+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222541+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x218e6c000
+2024-11-14T17:37:09.222543+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222545+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222546+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x218e72000
+2024-11-14T17:37:09.222547+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222548+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222549+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10d13a000
+2024-11-14T17:37:09.222551+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222580+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.222583+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222586+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.222590+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.222592+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222595+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222598+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.222600+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.222602+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.222604+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222606+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222609+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.222611+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1509c3e40
+2024-11-14T17:37:09.222614+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.222616+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222618+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1d3e51000
+2024-11-14T17:37:09.222620+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.222622+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.222624+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.222626+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.222628+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.222630+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.222633+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.222636+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1409bf000
+2024-11-14T17:37:09.222638+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.222639+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222640+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x152061000
+2024-11-14T17:37:09.222642+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222644+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222645+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x236e97000
+2024-11-14T17:37:09.222646+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222647+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222648+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x258e25000
+2024-11-14T17:37:09.222650+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222651+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222653+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1521b2000
+2024-11-14T17:37:09.222771+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222819+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.222823+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1d3cab000
+2024-11-14T17:37:09.222826+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222856+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.222858+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222860+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.222861+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.222866+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222883+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222886+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.222889+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.222915+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.222943+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222945+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222947+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.222949+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x14c39be40
+2024-11-14T17:37:09.222951+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.222957+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.222958+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1409bf000
+2024-11-14T17:37:09.222960+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.222962+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.222964+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.222967+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.222969+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.222971+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.222974+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.222975+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x11dd40000
+2024-11-14T17:37:09.222977+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.222979+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223002+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x112fd9000
+2024-11-14T17:37:09.223005+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223008+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223010+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1026b7000
+2024-11-14T17:37:09.223013+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223015+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223017+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1407a3000
+2024-11-14T17:37:09.223018+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223020+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223021+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x11698d000
+2024-11-14T17:37:09.223023+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223025+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223026+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x103114000
+2024-11-14T17:37:09.223027+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223028+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.223029+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223031+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.223056+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.223059+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223062+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223065+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.223068+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.223071+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.223073+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223074+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223077+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.223079+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1e52b6240
+2024-11-14T17:37:09.223081+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.223083+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223086+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11dd40000
+2024-11-14T17:37:09.223088+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.223090+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.223091+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.223092+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.223094+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.223096+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.223097+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.223098+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x20927b000
+2024-11-14T17:37:09.223100+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.223101+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223102+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x24b94e000
+2024-11-14T17:37:09.223104+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223111+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223136+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x20b088000
+2024-11-14T17:37:09.223140+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223143+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223145+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x15d63d000
+2024-11-14T17:37:09.223147+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223150+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223153+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x247d32000
+2024-11-14T17:37:09.223155+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223157+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223159+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x21a9fe000
+2024-11-14T17:37:09.223161+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223164+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.223166+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223168+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.223170+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.223172+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223174+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223186+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.223189+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.223191+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.223194+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223195+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223197+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.223198+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1d3f36240
+2024-11-14T17:37:09.223199+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.223202+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223203+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x20927b000
+2024-11-14T17:37:09.223205+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.223206+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.223207+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.223208+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.223210+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.223213+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.223214+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.223215+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1cc661000
+2024-11-14T17:37:09.223216+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.223217+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223219+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x252850000
+2024-11-14T17:37:09.223221+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223223+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223224+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x10a1ee000
+2024-11-14T17:37:09.223225+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223389+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223396+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x257cdb000
+2024-11-14T17:37:09.223416+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223424+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223426+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x25d67e000
+2024-11-14T17:37:09.223429+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223431+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223433+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x1e5011000
+2024-11-14T17:37:09.223450+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223453+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.223455+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223457+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.223458+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.223460+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223479+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223482+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.223485+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.223487+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.223490+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223527+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223596+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.223603+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x13e9d6240
+2024-11-14T17:37:09.223623+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.223626+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223628+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1cc661000
+2024-11-14T17:37:09.223629+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.223631+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.223633+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.223635+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-14T17:37:09.223636+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-14T17:37:09.223653+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.223657+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE ------------------------------------ 
+2024-11-14T17:37:09.223659+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdvpr page pa: 0x1e1664000
+2024-11-14T17:37:09.223662+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.223665+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223667+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x2385f1000
+2024-11-14T17:37:09.223669+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223670+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223672+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x125e8b000
+2024-11-14T17:37:09.223702+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223706+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223708+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x12a6d7000
+2024-11-14T17:37:09.223711+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223714+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223716+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x2627cd000
+2024-11-14T17:37:09.223718+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223738+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX ------------------------------------ 
+2024-11-14T17:37:09.223741+08:00 DXH-104-059 kernel: kernel_agent: RCX: to add tdcx page pa: 0x20b0b0000
+2024-11-14T17:37:09.223743+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223746+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT ------------------------------------ 
+2024-11-14T17:37:09.223749+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223751+08:00 DXH-104-059 kernel: kernel_agent: RDX: td initial vcpu rcx: 0x809000
+2024-11-14T17:37:09.223754+08:00 DXH-104-059 kernel: kernel_agent: R8: x2apic_id, if leaf version > 0: 0x0
+2024-11-14T17:37:09.223761+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223781+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223784+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2
+2024-11-14T17:37:09.223788+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0xf2
+2024-11-14T17:37:09.223790+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffff
+2024-11-14T17:37:09.223793+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223796+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223798+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x2016
+2024-11-14T17:37:09.223800+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x1cc74e240
+2024-11-14T17:37:09.223820+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.223824+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223826+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x1e1664000
+2024-11-14T17:37:09.223829+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x4000
+2024-11-14T17:37:09.223832+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x80
+2024-11-14T17:37:09.223835+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0x80
+2024-11-14T17:37:09.223837+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR ------------------------------------ 
+2024-11-14T17:37:09.223839+08:00 DXH-104-059 kernel: kernel_agent: RCX: tdvpr pa: 0x11b7ea000
+2024-11-14T17:37:09.223842+08:00 DXH-104-059 kernel: kernel_agent: RDX: field identifier: 0x203c
+2024-11-14T17:37:09.223845+08:00 DXH-104-059 kernel: kernel_agent: R8: field value: 0x133f64000
+2024-11-14T17:37:09.223847+08:00 DXH-104-059 kernel: kernel_agent: R9: 64b write mask: 0xffffffffffffffff
+2024-11-14T17:37:09.223848+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD ------------------------------------ 
+2024-11-14T17:37:09.223850+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 4 gpa: 0x0
+2024-11-14T17:37:09.223851+08:00 DXH-104-059 kernel: kernel_agent: RDX: allow_existing: 0 tdr pa: 0x177783000
+2024-11-14T17:37:09.223853+08:00 DXH-104-059 kernel: kernel_agent: R8: sept page pa: 0x13eeb8000
+2024-11-14T17:37:09.223855+08:00 DXH-104-059 kernel: kernel_agent: R9: L2 vm#1 sept page pa: 0x0
+2024-11-14T17:37:09.223856+08:00 DXH-104-059 kernel: kernel_agent: R10: L2 vm#2 sept page pa: 0x0
+2024-11-14T17:37:09.223857+08:00 DXH-104-059 kernel: kernel_agent: R11: L2 vm#3 sept page pa: 0x0
+2024-11-14T17:37:09.223858+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD ------------------------------------ 
+2024-11-14T17:37:09.223860+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 3 gpa: 0x0
+2024-11-14T17:37:09.223862+08:00 DXH-104-059 kernel: kernel_agent: RDX: allow_existing: 0 tdr pa: 0x177783000
+2024-11-14T17:37:09.223864+08:00 DXH-104-059 kernel: kernel_agent: R8: sept page pa: 0x2174ad000
+2024-11-14T17:37:09.223865+08:00 DXH-104-059 kernel: kernel_agent: R9: L2 vm#1 sept page pa: 0x0
+2024-11-14T17:37:09.223866+08:00 DXH-104-059 kernel: kernel_agent: R10: L2 vm#2 sept page pa: 0x0
+2024-11-14T17:37:09.223890+08:00 DXH-104-059 kernel: kernel_agent: R11: L2 vm#3 sept page pa: 0x0
+2024-11-14T17:37:09.223894+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD ------------------------------------ 
+2024-11-14T17:37:09.223897+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 2 gpa: 0xc0000000
+2024-11-14T17:37:09.223900+08:00 DXH-104-059 kernel: kernel_agent: RDX: allow_existing: 0 tdr pa: 0x177783000
+2024-11-14T17:37:09.223903+08:00 DXH-104-059 kernel: kernel_agent: R8: sept page pa: 0x1521fd000
+2024-11-14T17:37:09.223907+08:00 DXH-104-059 kernel: kernel_agent: R9: L2 vm#1 sept page pa: 0x0
+2024-11-14T17:37:09.223910+08:00 DXH-104-059 kernel: kernel_agent: R10: L2 vm#2 sept page pa: 0x0
+2024-11-14T17:37:09.223913+08:00 DXH-104-059 kernel: kernel_agent: R11: L2 vm#3 sept page pa: 0x0
+2024-11-14T17:37:09.223916+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD ------------------------------------ 
+2024-11-14T17:37:09.223918+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 1 gpa: 0xffc00000
+2024-11-14T17:37:09.223920+08:00 DXH-104-059 kernel: kernel_agent: RDX: allow_existing: 0 tdr pa: 0x177783000
+2024-11-14T17:37:09.223922+08:00 DXH-104-059 kernel: kernel_agent: R8: sept page pa: 0x13edc8000
+2024-11-14T17:37:09.223924+08:00 DXH-104-059 kernel: kernel_agent: R9: L2 vm#1 sept page pa: 0x0
+2024-11-14T17:37:09.223926+08:00 DXH-104-059 kernel: kernel_agent: R10: L2 vm#2 sept page pa: 0x0
+2024-11-14T17:37:09.223928+08:00 DXH-104-059 kernel: kernel_agent: R11: L2 vm#3 sept page pa: 0x0
+2024-11-14T17:37:09.223930+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.223932+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 0 gpa: 0xffc84000
+2024-11-14T17:37:09.223934+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.223936+08:00 DXH-104-059 kernel: kernel_agent: R8: to add td page pa: 0x349e84000
+2024-11-14T17:37:09.223938+08:00 DXH-104-059 kernel: kernel_agent: R9: source page pa: 0x345c84000
+2024-11-14T17:37:09.223940+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.223943+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 0 gpa: 0xffc85000
+2024-11-14T17:37:09.223944+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.223945+08:00 DXH-104-059 kernel: kernel_agent: R8: to add td page pa: 0x349e85000
+2024-11-14T17:37:09.223946+08:00 DXH-104-059 kernel: kernel_agent: R9: source page pa: 0x345c85000
+2024-11-14T17:37:09.223947+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.223949+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 0 gpa: 0xffc86000
+2024-11-14T17:37:09.223951+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.224038+08:00 DXH-104-059 kernel: kernel_agent: R8: to add td page pa: 0x349e86000
+2024-11-14T17:37:09.224041+08:00 DXH-104-059 kernel: kernel_agent: R9: source page pa: 0x345c86000
+2024-11-14T17:37:09.224043+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.224046+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 0 gpa: 0xffc87000
+2024-11-14T17:37:09.224050+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.224078+08:00 DXH-104-059 kernel: kernel_agent: R8: to add td page pa: 0x349e87000
+2024-11-14T17:37:09.224081+08:00 DXH-104-059 kernel: kernel_agent: R9: source page pa: 0x345c87000
+2024-11-14T17:37:09.224083+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.224085+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 0 gpa: 0xffc88000
+2024-11-14T17:37:09.224105+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.224107+08:00 DXH-104-059 kernel: kernel_agent: R8: to add td page pa: 0x349e88000
+2024-11-14T17:37:09.224109+08:00 DXH-104-059 kernel: kernel_agent: R9: source page pa: 0x345c88000
+2024-11-14T17:37:09.224111+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.229244+08:00 DXH-104-059 kernel: message repeated 374 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ ]
+2024-11-14T17:37:09.229245+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD ------------------------------------ 
+2024-11-14T17:37:09.229259+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 1 gpa: 0xffe00000
+2024-11-14T17:37:09.229261+08:00 DXH-104-059 kernel: kernel_agent: RDX: allow_existing: 0 tdr pa: 0x177783000
+2024-11-14T17:37:09.229263+08:00 DXH-104-059 kernel: kernel_agent: R8: sept page pa: 0x10d041000
+2024-11-14T17:37:09.229265+08:00 DXH-104-059 kernel: kernel_agent: R9: L2 vm#1 sept page pa: 0x0
+2024-11-14T17:37:09.229267+08:00 DXH-104-059 kernel: kernel_agent: R10: L2 vm#2 sept page pa: 0x0
+2024-11-14T17:37:09.229268+08:00 DXH-104-059 kernel: kernel_agent: R11: L2 vm#3 sept page pa: 0x0
+2024-11-14T17:37:09.229270+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.236291+08:00 DXH-104-059 kernel: message repeated 511 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ ]
+2024-11-14T17:37:09.236293+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-14T17:37:09.236299+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_EXTEND_MEMORY
+2024-11-14T17:37:09.236300+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.236302+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.236304+08:00 DXH-104-059 kernel: kernel_agent: RCX: to be measured td page chunk gpa: 0xffc84000
+2024-11-14T17:37:09.236306+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.236307+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.236309+08:00 DXH-104-059 kernel: kernel_agent: RCX: to be measured td page chunk gpa: 0xffc84100
+2024-11-14T17:37:09.236310+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.236311+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.236313+08:00 DXH-104-059 kernel: kernel_agent: RCX: to be measured td page chunk gpa: 0xffc84200
+2024-11-14T17:37:09.236314+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.236315+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.236317+08:00 DXH-104-059 kernel: kernel_agent: RCX: to be measured td page chunk gpa: 0xffc84300
+2024-11-14T17:37:09.236318+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.236319+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.236321+08:00 DXH-104-059 kernel: kernel_agent: RCX: to be measured td page chunk gpa: 0xffc84400
+2024-11-14T17:37:09.236322+08:00 DXH-104-059 kernel: kernel_agent: RDX: tdr pa: 0x177783000
+2024-11-14T17:37:09.236324+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.292488+08:00 DXH-104-059 kernel: message repeated 7609 times: [ kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ ]
+2024-11-14T17:37:09.292516+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.292527+08:00 DXH-104-059 kernel: message repeated 5 times: [ kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ ]
+2024-11-14T17:37:09.292532+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.292633+08:00 DXH-104-059 kernel: message repeated 19 times: [ kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ ]
+2024-11-14T17:37:09.292638+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ 
+2024-11-14T17:37:09.333505+08:00 DXH-104-059 kernel: message repeated 6630 times: [ kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND ------------------------------------ ]
+2024-11-14T17:37:09.333506+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.334392+08:00 DXH-104-059 kernel: message repeated 131 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ ]
+2024-11-14T17:37:09.335234+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD ------------------------------------ 
+2024-11-14T17:37:09.335242+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 2 gpa: 0x0
+2024-11-14T17:37:09.335244+08:00 DXH-104-059 kernel: kernel_agent: RDX: allow_existing: 0 tdr pa: 0x177783000
+2024-11-14T17:37:09.335245+08:00 DXH-104-059 kernel: kernel_agent: R8: sept page pa: 0x2385f3000
+2024-11-14T17:37:09.335246+08:00 DXH-104-059 kernel: kernel_agent: R9: L2 vm#1 sept page pa: 0x0
+2024-11-14T17:37:09.335248+08:00 DXH-104-059 kernel: kernel_agent: R10: L2 vm#2 sept page pa: 0x0
+2024-11-14T17:37:09.335249+08:00 DXH-104-059 kernel: kernel_agent: R11: L2 vm#3 sept page pa: 0x0
+2024-11-14T17:37:09.335273+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD ------------------------------------ 
+2024-11-14T17:37:09.335275+08:00 DXH-104-059 kernel: kernel_agent: RCX: level: 1 gpa: 0x800000
+2024-11-14T17:37:09.335277+08:00 DXH-104-059 kernel: kernel_agent: RDX: allow_existing: 0 tdr pa: 0x177783000
+2024-11-14T17:37:09.335278+08:00 DXH-104-059 kernel: kernel_agent: R8: sept page pa: 0x14b9b5000
+2024-11-14T17:37:09.335279+08:00 DXH-104-059 kernel: kernel_agent: R9: L2 vm#1 sept page pa: 0x0
+2024-11-14T17:37:09.335280+08:00 DXH-104-059 kernel: kernel_agent: R10: L2 vm#2 sept page pa: 0x0
+2024-11-14T17:37:09.335281+08:00 DXH-104-059 kernel: kernel_agent: R11: L2 vm#3 sept page pa: 0x0
+2024-11-14T17:37:09.335283+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ 
+2024-11-14T17:37:09.335319+08:00 DXH-104-059 kernel: message repeated 25 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD ------------------------------------ ]
+2024-11-14T17:37:09.335321+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-14T17:37:09.335325+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_FINALIZE_VM
+2024-11-14T17:37:09.335326+08:00 DXH-104-059 kernel: 
+2024-11-14T17:37:09.335328+08:00 DXH-104-059 kernel: kernel_agent: TD_FINALIZED
+

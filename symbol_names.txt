@@ -1,0 +1,8 @@
+tdx_vm_ioctl
+tdx_vcpu_ioctl
+__seamcall
+__seamcall_ret
+__seamcall_saved_ret
+__pgtable_l5_enabled
+tdx_global_keyid
+pgdir_shift

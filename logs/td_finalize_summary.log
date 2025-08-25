@@ -1,0 +1,173 @@
+2024-11-13T19:19:12.404322+08:00 DXH-104-059 kernel: kernel_agent: __seamcall address: ffffffff85afa910
+2024-11-13T19:19:12.404349+08:00 DXH-104-059 kernel: kernel_agent: __seamcall_ret address: ffffffff85afa970
+2024-11-13T19:19:12.404352+08:00 DXH-104-059 kernel: kernel_agent: __seamcall_saved_ret address: ffffffff85afa9e0
+2024-11-13T19:19:12.404353+08:00 DXH-104-059 kernel: kernel_agent: tdx_vm_ioctl adress: ffffffffc1127e40
+2024-11-13T19:19:12.404355+08:00 DXH-104-059 kernel: kernel_agent: tdx_vcpu_ioctl adress: ffffffffc1127ff0
+2024-11-13T19:19:12.428304+08:00 DXH-104-059 kernel: kernel_agent: KProbe: registration successful
+2024-11-13T19:19:12.428331+08:00 DXH-104-059 kernel: kernel_agent: vmm_agent loaded
+
+
+
+2024-11-13T19:19:29.012350+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-13T19:19:29.012380+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_CAPABILITIES
+2024-11-13T19:19:29.012383+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-13T19:19:29.012387+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_CAPABILITIES
+2024-11-13T19:19:29.012389+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-13T19:19:29.012390+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_CAPABILITIES
+2024-11-13T19:19:29.019391+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-13T19:19:29.019423+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VM
+2024-11-13T19:19:29.019425+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_CREATE
+2024-11-13T19:19:29.019427+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_KEY_CONFIG
+2024-11-13T19:19:29.019428+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_MNG_ADDCX
+2024-11-13T19:19:29.019447+08:00 DXH-104-059 kernel: message repeated 5 times: [ kernel_agent: kvm __seamcall(): TDH_MNG_ADDCX]
+2024-11-13T19:19:29.019448+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MNG_INIT
+2024-11-13T19:19:29.019459+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MNG_RD
+2024-11-13T19:19:29.155321+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.155348+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.155351+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.155352+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.155364+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.155366+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.155377+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.155383+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.155401+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.155404+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.155405+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.155406+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.155420+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.155421+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.155424+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.155435+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.156380+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.156414+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.156416+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.156418+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.156430+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.156431+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.156434+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.156438+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.156440+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.156443+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.156444+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.156446+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.156453+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.156454+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.156456+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.156460+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.156462+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.156465+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.156466+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.156467+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.156474+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.156475+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.156477+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.156481+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.156483+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.156486+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.156488+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.156489+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.156496+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.156497+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.156500+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.156504+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.156505+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.156508+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.156509+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.156510+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.156517+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.156519+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.156549+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.156555+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.156556+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.156560+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.156562+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.156590+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.156599+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.156600+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.156604+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.156611+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.156613+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.156617+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.156618+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.156620+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.156627+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.156636+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.156638+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.156643+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.157379+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.157415+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.157417+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.157419+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.157430+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.157431+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.157434+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.157439+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.157442+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.157445+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.157446+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.157447+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.157454+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.157455+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.157458+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.157463+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.157464+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.157467+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.157468+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.157469+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.157475+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.157476+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.157479+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.157484+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.157486+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.157489+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.157490+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.157492+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.157504+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.157506+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.157509+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.157513+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.157541+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.157545+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.157547+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.157549+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.157557+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.157558+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.157562+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.157567+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.157568+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.157572+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.157574+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.157576+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.157594+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.157595+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.157598+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.157603+08:00 DXH-104-059 kernel: message repeated 2 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.158319+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vcpu_ioctl() 
+2024-11-13T19:19:29.158355+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_INIT_VCPU
+2024-11-13T19:19:29.158358+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_CREATE
+2024-11-13T19:19:29.158359+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_ADDCX
+2024-11-13T19:19:29.158370+08:00 DXH-104-059 kernel: message repeated 4 times: [ kernel_agent: kvm __seamcall(): TDH_VP_ADDCX]
+2024-11-13T19:19:29.158371+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall(): TDH_VP_INIT
+2024-11-13T19:19:29.158374+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_VP_WR
+2024-11-13T19:19:29.158382+08:00 DXH-104-059 kernel: message repeated 3 times: [ kernel_agent: kvm __seamcall_ret: TDH_VP_WR]
+2024-11-13T19:19:29.158398+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD
+2024-11-13T19:19:29.158404+08:00 DXH-104-059 kernel: message repeated 3 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD]
+2024-11-13T19:19:29.158406+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD
+2024-11-13T19:19:29.163342+08:00 DXH-104-059 kernel: message repeated 379 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD]
+2024-11-13T19:19:29.164241+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD
+2024-11-13T19:19:29.164261+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD
+2024-11-13T19:19:29.170490+08:00 DXH-104-059 kernel: message repeated 511 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD]
+2024-11-13T19:19:29.170492+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-13T19:19:29.170515+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_EXTEND_MEMORY
+2024-11-13T19:19:29.170517+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND
+2024-11-13T19:19:29.262438+08:00 DXH-104-059 kernel: message repeated 14271 times: [ kernel_agent: kvm __seamcall_ret: TDH_MR_EXTEND]
+2024-11-13T19:19:29.262439+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD
+2024-11-13T19:19:29.263438+08:00 DXH-104-059 kernel: message repeated 131 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD]
+2024-11-13T19:19:29.264334+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD
+2024-11-13T19:19:29.264368+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_SEPT_ADD
+2024-11-13T19:19:29.264378+08:00 DXH-104-059 kernel: kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD
+2024-11-13T19:19:29.264417+08:00 DXH-104-059 kernel: message repeated 25 times: [ kernel_agent: kvm __seamcall_ret: TDH_MEM_PAGE_ADD]
+2024-11-13T19:19:29.264418+08:00 DXH-104-059 kernel: kernel_agent: hooked  tdx_vm_ioctl() 
+2024-11-13T19:19:29.264422+08:00 DXH-104-059 kernel: kernel_agent: ioctl: KVM_TDX_FINALIZE_VM
+2024-11-13T19:19:29.264424+08:00 DXH-104-059 kernel: kernel_agent: FINALIZE_END
+
